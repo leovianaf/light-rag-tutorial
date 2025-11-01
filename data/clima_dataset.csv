@@ -1,0 +1,51 @@
+City,Date,MaxTemperature,MinTemperature,Condition
+Recife,2024-03-01,31,25,Sunny
+Recife,2024-03-02,30,25,Cloudy
+Recife,2024-03-03,29,24,Rainy
+Recife,2024-03-04,28,23,Rainy
+Recife,2024-03-05,30,24,Sunny
+Recife,2024-03-06,32,25,Sunny
+Recife,2024-03-07,33,26,Sunny
+Recife,2024-03-08,31,25,Cloudy
+Recife,2024-03-09,29,24,Rainy
+Recife,2024-03-10,30,24,Cloudy
+São Paulo,2024-03-01,27,20,Rainy
+São Paulo,2024-03-02,28,21,Cloudy
+São Paulo,2024-03-03,29,22,Sunny
+São Paulo,2024-03-04,25,19,Rainy
+São Paulo,2024-03-05,26,18,Cloudy
+São Paulo,2024-03-06,27,19,Sunny
+São Paulo,2024-03-07,30,21,Sunny
+São Paulo,2024-03-08,28,20,Cloudy
+São Paulo,2024-03-09,26,19,Rainy
+São Paulo,2024-03-10,25,18,Rainy
+Fortaleza,2024-03-01,33,26,Sunny
+Fortaleza,2024-03-02,32,26,Cloudy
+Fortaleza,2024-03-03,31,25,Rainy
+Fortaleza,2024-03-04,33,26,Sunny
+Fortaleza,2024-03-05,34,27,Sunny
+Fortaleza,2024-03-06,33,26,Cloudy
+Fortaleza,2024-03-07,31,25,Rainy
+Fortaleza,2024-03-08,32,26,Sunny
+Fortaleza,2024-03-09,33,27,Sunny
+Fortaleza,2024-03-10,31,26,Rainy
+Porto Alegre,2024-03-01,26,18,Cloudy
+Porto Alegre,2024-03-02,28,19,Sunny
+Porto Alegre,2024-03-03,27,18,Rainy
+Porto Alegre,2024-03-04,29,20,Sunny
+Porto Alegre,2024-03-05,28,19,Cloudy
+Porto Alegre,2024-03-06,27,18,Rainy
+Porto Alegre,2024-03-07,30,21,Sunny
+Porto Alegre,2024-03-08,29,20,Cloudy
+Porto Alegre,2024-03-09,26,18,Rainy
+Porto Alegre,2024-03-10,27,19,Sunny
+Manaus,2024-03-01,34,26,Sunny
+Manaus,2024-03-02,33,26,Rainy
+Manaus,2024-03-03,34,27,Sunny
+Manaus,2024-03-04,35,27,Cloudy
+Manaus,2024-03-05,33,26,Rainy
+Manaus,2024-03-06,32,25,Sunny
+Manaus,2024-03-07,34,26,Sunny
+Manaus,2024-03-08,35,27,Cloudy
+Manaus,2024-03-09,33,26,Rainy
+Manaus,2024-03-10,34,26,Sunny

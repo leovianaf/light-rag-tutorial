@@ -1,0 +1,47 @@
+# --- Python & Virtualenv ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.DS_Store
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# --- Modelos treinados ---
+output/
+models/
+checkpoints/
+
+# --- IDEs & configs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Cache e arquivos temporários ---
+*.tmp
+*.bak
+*.swp
+*.aux
+*.out
+*.log
+*.lock
+*.gz
+
+# --- Linux & Mac ---
+*.swp
+.DS_Store
+.Trash-*
+
+# LightRAG cache e dados
+rag_storage/
