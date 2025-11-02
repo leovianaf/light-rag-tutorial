@@ -65,15 +65,15 @@ pip install git+https://github.com/HKUDS/LightRAG.git
 #### 🚀 Como o LightRAG funciona por dentro
 
 1. **Indexação baseada em grafo** (*Graph-based Text Indexing*)
-  - Ele transforma cada texto (ou linha de tabela) em chunks e extrai entidades e relações.
-  - Cada entidade e relação se torna um nó e aresta no grafo.
+    - Ele transforma cada texto (ou linha de tabela) em chunks e extrai entidades e relações.
+    - Cada entidade e relação se torna um nó e aresta no grafo.
 2. **Deduplicação e Extração Semântica via LLM**
-  - O LLM é usado para identificar relações de significado entre os textos e consolidar entidades equivalentes.
+    - O LLM é usado para identificar relações de significado entre os textos e consolidar entidades equivalentes.
 3. **Recuperação dual (Dual-level Retrieval)**
-  - Durante a consulta, o sistema busca tanto nos vetores (embeddings) quanto nas relações do grafo, combinando os dois níveis de informação.
-  - Neste tutorial, utilizamos **apenas a recuperação local baseada em embeddings**, o que é suficiente para bases tabulares pequenas e garante execução leve.
+    - Durante a consulta, o sistema busca tanto nos vetores (embeddings) quanto nas relações do grafo, combinando os dois níveis de informação.
+    - Neste tutorial, utilizamos **apenas a recuperação local baseada em embeddings**, o que é suficiente para bases tabulares pequenas e garante execução leve.
 4. **Geração**
-  - O contexto recuperado (nós + arestas + chunks) é enviado ao LLM, que gera a resposta fundamentada nos dados.
+    - O contexto recuperado (nós + arestas + chunks) é enviado ao LLM, que gera a resposta fundamentada nos dados.
 
 <div align="center"> <img src="images/lightrag_architecture.png" alt="Arquitetura do LightRAG" width="600px"/> <br> <em>Figura 1: Arquitetura geral do framework LightRAG (HKU).</em> </div>
 
